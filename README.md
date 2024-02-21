@@ -17,7 +17,7 @@ segments.count_down(30)
 ```
 ![Example pin connection](images/IMG_20240221_225823.jpg)
 
-![Example simulation](images/IMG_20240221_2255918)
+![Example simulation](images/IMG_20240221_225918.jpg)
 
 
 ## Installation
