@@ -44,31 +44,31 @@ For 4 digit display:
 ```python
 #Initialise the pins
 
-segments.anode(digit4_pin,digit3_pin,digit2_pin,digit1_pin)
+segments.anode(digit4_pin, digit3_pin, digit2_pin, digit1_pin)
 ```
 
 For 3 digit display:
 
 ```python
-segments.anode(digit4_pin,digit3_pin,digit2_pin,NULL) #For 3 digit display
+segments.anode(digit4_pin, digit3_pin, digit2_pin, NULL) #For 3 digit display
 ```
 
 For 2 digit display:
 
 ```python
-segments.anode(digit4_pin,digit3_pi ,NULL,NULL)
+segments.anode(digit4_pin, digit3_pi, NULL, NULL)
 ```
 
 For 1 digit display:
 
 ```python
-segments.anode(digit4_pin,NULL,NULL,NULL) 
+segments.anode(digit4_pin, NULL, NULL, NULL) 
 ```
 
 ###### Cathode configuration:
 
 ```python
-segments.cathode(A-pin,B-pin,C-pin,D-pin,E-pin,F-pin,G-pin)
+segments.cathode(A-pin, B-pin, C-pin, D-pin, E-pin, F-pin, G-pin)
 ```
 
 #### In common cathode display:
@@ -78,31 +78,31 @@ segments.cathode(A-pin,B-pin,C-pin,D-pin,E-pin,F-pin,G-pin)
 For 4 digit display:
 
 ```python
-segments.cathode(digit4_pin,digit3_pi ,digit2_pin,digit1_pin)
+segments.cathode(digit4_pin, digit3_pi, digit2_pin, digit1_pin)
 ```
 
 For 3 digit display:
 
 ```python
-segments.cathode(digit4_pin,digit3_pin,digit2_pin,NULL)
+segments.cathode(digit4_pin, digit3_pin, digit2_pin, NULL)
 ```
 
 For 2 digit display:
 
 ```python
-segments.cathode(digit4_pin,digit3_pi ,NULL,NULL)
+segments.cathode(digit4_pin, digit3_pi, NULL, NULL)
 ```
 
 For 1 digit display:
 
 ```python
-segments.cathode(digit4_pin,NULL,NULL,NULL) #For 1 digit display
+segments.cathode(digit4_pin, NULL, NULL, NULL) #For 1 digit display
 ```
 
 ###### Anode configuration:
 
 ```python
-segments.anode(A-pin,B-pin,C-pin,D-pin,E-pin,F-pin,G-pin)
+segments.anode(A-pin, B-pin, C-pin, D-pin, E-pin, F-pin, G-pin)
 ```
 
 ### 3) To display a digit:
