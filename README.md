@@ -21,7 +21,7 @@ Use mip (Micropython package manager) to install this module by importing mip in
 
 ```python
 import mip
-mip.install("github:AthulNoobie/micropython_7segment_display_module")
+mip.install("github:AthulNoobie/micropython_7segment_display_library")
 ```
 ## Usage
 ### 1) Importing the module
