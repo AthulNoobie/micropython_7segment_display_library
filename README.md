@@ -36,9 +36,9 @@ segments = micropython_7seg.Sevseg("anode")
 ### 2) Set up the pin configuration:
 
 If you are using a common anode display, The anodes are controlling the digits and cathodes are controlling the segments. It is vice versa in common cathode display.
-##### In common anode display:
+#### In common anode display:
 
-###### anode configurations:
+##### anode configurations:
 
 ```python
 #Initialise the pins
@@ -46,7 +46,7 @@ If you are using a common anode display, The anodes are controlling the digits a
 segments.anode(digit4_pin, digit3_pin, digit2_pin, digit1_pin)
 ```
 
-###### Cathode configuration:
+##### Cathode configuration:
 
 ```python
 segments.cathode(A-pin, B-pin, C-pin, D-pin, E-pin, F-pin, G-pin)
@@ -54,14 +54,14 @@ segments.cathode(A-pin, B-pin, C-pin, D-pin, E-pin, F-pin, G-pin)
 
 #### In common cathode display:
 
-###### Cathode configurations:
+##### Cathode configurations:
 
 
 ```python
 segments.cathode(digit4_pin, digit3_pi, digit2_pin, digit1_pin)
 ```
 
-###### Anode configuration:
+##### Anode configuration:
 
 ```python
 segments.anode(A-pin, B-pin, C-pin, D-pin, E-pin, F-pin, G-pin)
