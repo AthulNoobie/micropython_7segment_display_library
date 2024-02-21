@@ -18,7 +18,8 @@ segments.count_down(30)
 ![Example pin connection](images/IMG_20240221_231755.jpg)
 ###### Example pin connection
 
-Link of this simulation:[wokwi](https://wokwi.com/projects/389807478874552321)
+Link of this *simulation:[wokwi](https://wokwi.com/projects/389807478874552321)*
+
 ![Example simulation](images/IMG_20240221_225918.jpg)
 ###### Example simulation
 
