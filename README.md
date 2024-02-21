@@ -13,12 +13,12 @@ segments=micropython_7seg.Sevseg("anode")
 segments.anode(13,27,14,12)
 segments.cathode(15,2,19,4,21,5,18)
 
+segments.count_down(30)
+```
 ![Example pin connection](images/IMG_20240221_225823.jpg)
 
 ![Example simulation](images/IMG_20240221_2255918)
 
-segments.count_down(30)
-```
 
 ## Installation
 Use mip (Micropython package manager) to install this module by importing mip in your micropython interpreter.
