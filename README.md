@@ -6,7 +6,7 @@ This MicroPython module simplifies working with seven-segment displays on differ
 ## Example:
 This is an example code for a 30 second timer using a common anode 4 digit display:
 ```python
-import micropython-7seg
+import micropython_7seg
 
 segments=micropython-7seg.Sevseg("anode")
 
@@ -26,7 +26,7 @@ mip.install("github:AthulNoobie/micropython-Seven-segment-display-control")
 ## Usage
 ### 1) Importing the module
 ```python
-import micropython-7seg
+import micropython_7seg
 
 #After importing the module, create an object called "segments"(You can give any name).
 
