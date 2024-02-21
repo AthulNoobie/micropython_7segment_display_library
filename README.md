@@ -40,29 +40,10 @@ If you are using a common anode display, The anodes are controlling the digits a
 
 ###### anode configurations:
 
-For 4 digit display:
 ```python
 #Initialise the pins
 
 segments.anode(digit4_pin, digit3_pin, digit2_pin, digit1_pin)
-```
-
-For 3 digit display:
-
-```python
-segments.anode(digit4_pin, digit3_pin, digit2_pin, NULL) #For 3 digit display
-```
-
-For 2 digit display:
-
-```python
-segments.anode(digit4_pin, digit3_pi, NULL, NULL)
-```
-
-For 1 digit display:
-
-```python
-segments.anode(digit4_pin, NULL, NULL, NULL) 
 ```
 
 ###### Cathode configuration:
@@ -75,28 +56,9 @@ segments.cathode(A-pin, B-pin, C-pin, D-pin, E-pin, F-pin, G-pin)
 
 ###### Cathode configurations:
 
-For 4 digit display:
 
 ```python
 segments.cathode(digit4_pin, digit3_pi, digit2_pin, digit1_pin)
-```
-
-For 3 digit display:
-
-```python
-segments.cathode(digit4_pin, digit3_pin, digit2_pin, NULL)
-```
-
-For 2 digit display:
-
-```python
-segments.cathode(digit4_pin, digit3_pi, NULL, NULL)
-```
-
-For 1 digit display:
-
-```python
-segments.cathode(digit4_pin, NULL, NULL, NULL) #For 1 digit display
 ```
 
 ###### Anode configuration:
