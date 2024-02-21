@@ -15,7 +15,7 @@ segments.cathode(15,2,19,4,21,5,18)
 
 segments.count_down(30)
 ```
-![Example pin connection](images/IMG_20240221_225823.jpg)
+![Example pin connection](images/IMG_20240221_231755.jpg)
 
 ![Example simulation](images/IMG_20240221_225918.jpg)
 
