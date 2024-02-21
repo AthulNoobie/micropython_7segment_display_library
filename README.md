@@ -95,6 +95,7 @@ segments.anode(A-pin,B-pin,C-pin,D-pin,E-pin,F-pin,G-pin)
 ### 3) To display a digit:
 ```
 segments.display(2024)
+
 #This will display the digit 2024
 ```
 ### 4)Count down/up
