@@ -30,6 +30,7 @@ If you are using a common anode display, The anodes are controlling the digits a
 For 4 digit display:
 ```
 #Initialise the pins
+
 segments.anode(digit4_pin,digit3_pin,digit2_pin,digit1_pin)
 ```
 
@@ -106,11 +107,14 @@ Default function of count_down() is decrementing the input with a delay of 1 sec
 
 ##### Default usage:
 ```
-segments.count_down(30) #This will do a countdown from 30 to 0.
+segments.count_down(30)
+
+#This will do a countdown from 30 to 0.
 ```
 ##### Modified usage:
 ```
 segments.count_down(30,20,1,-2)
+
 #This will do a cout_down from 30 to 20 by decrementing 2 with a delay of 1 sec. Like this:
 30,28,26,24,22,20
 ```
@@ -118,6 +122,7 @@ segments.count_down(30,20,1,-2)
 Use the decrement as 1 for count up and -1 for count down.
 ```
 segments.count_down(30,41,1,1)
+
 #This will do a count up from 30 to 40
 ```
 ## Example:
