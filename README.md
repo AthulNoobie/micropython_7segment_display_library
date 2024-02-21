@@ -8,7 +8,7 @@ This is an example code for a 30 second timer using a common anode 4 digit displ
 ```python
 import micropython_7seg
 
-segments=micropython-7seg.Sevseg("anode")
+segments=micropython_7seg.Sevseg("anode")
 
 segments.anode(13,27,14,12)
 segments.cathode(15,2,19,26,21,5,18)
@@ -30,7 +30,7 @@ import micropython_7seg
 
 #After importing the module, create an object called "segments"(You can give any name).
 
-segments = micropython-7seg.Sevseg("anode")
+segments = micropython_7seg.Sevseg("anode")
 #Enter "cathode" if you are using a common cathode display.
 ```
 ### 2) Set up the pin configuration:
