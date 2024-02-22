@@ -3,8 +3,21 @@ A micropython module for interfacing with Seven segment display.
 
 This MicroPython module simplifies working with seven-segment displays on different microcontroller boards. It's compatible with 1 to 4 digit displays and has been thoroughly tested on ESP32 with a 4-digit seven-segment display, ensuring easy integration and reliable performance for your projects.
 
-## Example:
-This is an example code for a 30 second timer using a common anode 4 digit display:
+**Scroll down for installation steps 👇**
+
+
+**Link of this simulation: [wokwi esp32](https://wokwi.com/projects/389807478874552321)**
+
+![Example simulation](images/IMG_20240221_225918.jpg)
+###### Example simulation
+
+![Example pin connection](images/IMG_20240221_231755.jpg)
+###### Example pin connection
+
+## Example code:
+**Connect pins like this☝️**
+This is an example code for a 30 second timer using a common anode 4 digit display
+:
 ```python
 import micropython_7seg
 
@@ -15,16 +28,6 @@ segments.cathode(15,2,19,4,21,5,18)
 
 segments.count_down(30)
 ```
-**Scroll down for installation steps 👇**
-
-![Example pin connection](images/IMG_20240221_231755.jpg)
-###### Example pin connection
-
-**Link of this simulation: [wokwi esp32](https://wokwi.com/projects/389807478874552321)**
-
-![Example simulation](images/IMG_20240221_225918.jpg)
-###### Example simulation
-
 
 ## Installation
 Use mip (Micropython package manager) to install this module by importing mip in your micropython interpreter.
