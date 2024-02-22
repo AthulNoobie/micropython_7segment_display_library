@@ -10,7 +10,7 @@ import micropython_7seg
 
 segments=micropython_7seg.Sevseg("anode")
 
-segments.anode(13,27,14,12)
+segments.anode(13,27,14,12) #Change the values according to your connection
 segments.cathode(15,2,19,4,21,5,18)
 
 segments.count_down(30)
