@@ -1,5 +1,5 @@
 # Micropython Seven segment display control
-A micropython module for interfacing with Seven segment display.
+A micropython library for interfacing with Seven segment display.
 
 This MicroPython module simplifies working with seven-segment displays on different microcontroller boards. It's compatible with 1 to 4 digit displays and has been thoroughly tested on ESP32 with a 4-digit seven-segment display, ensuring easy integration and reliable performance for your projects.
 
