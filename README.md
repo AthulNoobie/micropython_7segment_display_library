@@ -33,12 +33,12 @@ segments.count_down(30)
 Use mip (Micropython package manager) to install this module by importing mip in your micropython interpreter.
 
 ```
-mpremote install github:AthulNoobie/micropython_7segment_display_library
+mpremote install github:AthulNoobie/micropython_7segment_display_library/micropython_7seg
 ```
 or
 ```python
 import mip
-mip.install("github:AthulNoobie/micropython_7segment_display_library")
+mip.install("github:AthulNoobie/micropython_7segment_display_library/micropython_7seg")
 ```
 ## Usage
 ### 1) Importing the module
