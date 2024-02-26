@@ -16,7 +16,7 @@ class Sevseg:
       elif self.com=="cathode":
          for pin in self.pin_map["cathode"]:
            Pin(pin,Pin.OUT).value(0)
-                
+
     def _show_(self,n):
       self.reset()
       if n==1 or n==7:
@@ -34,32 +34,32 @@ class Sevseg:
         if n==9 and(self.pin_map[self.com][i]==self.pin_map[self.com][4]):continue
         if self.com=="anode":Pin(self.pin_map[self.com][i],Pin.OUT).value(0)
         if self.com=="cathode":Pin(self.pin_map[self.com][i],Pin.OUT).value(1)
-      
-    def display(self,val):
+
+    def display(self,val,flicker=0.005):
       while True:
         for i in range(len(str(val))):
           self._show_(int(str(val)[-(i+1)]))
           if self.com=="anode":
             Pin(self.pin_map["cathode"][i],Pin.OUT).value(1)
-            time.sleep(0.005)
+            time.sleep(flicker)
             Pin(self.pin_map["cathode"][i],Pin.OUT).value(0)
           elif self.com=="cathode":
              Pin(self.pin_map["anode"][i],Pin.OUT).value(0)
-             time.sleep(0.005)
+             time.sleep(flicker)
              Pin(self.pin_map["anode"][i],Pin.OUT).value(1)
-    
-    def count_down(self,initial,final=0,delay=1,decrement=-1):
+
+    def count_down(self,initial,final=0,delay=1,decrement=-1,flicker=0.005):
       while True:
         start=time.time()
         for i in range(len(str(initial))):
           self._show_(int(str(initial)[-(i+1)]))
           if self.com=="anode":
             Pin(self.pin_map["cathode"][i],Pin.OUT).value(1)
-            time.sleep(0.005)
+            time.sleep(flicker)
             Pin(self.pin_map["cathode"][i],Pin.OUT).value(0)
           elif self.com=="cathode":
             Pin(self.pin_map["anode"][i],Pin.OUT).value(0)
-            time.sleep(0.005)
+            time.sleep(flicker)
             Pin(self.pin_map["anode"][i],Pin.OUT).value(1)
         stop=time.time()
         if (stop-start)>=delay:initial+=decrement
