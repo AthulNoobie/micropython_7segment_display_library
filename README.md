@@ -5,8 +5,9 @@ This MicroPython module simplifies working with seven-segment displays on differ
 
 **Scroll down for installation steps 👇**
 
-
+## How it works:
 **Link of this simulation: [wokwi esp32](https://wokwi.com/projects/389807478874552321)**
+(In the simulation, wait for 20-30 seconds for setting up the connection)
 
 ![Example simulation](images/IMG_20240221_225918.jpg)
 ###### Example simulation
