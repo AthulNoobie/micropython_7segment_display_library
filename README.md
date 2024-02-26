@@ -87,7 +87,7 @@ You can use the count_down() method for both count down and count up.
 
 Default function of count_down() is decrementing the input with a delay of 1 second. **But you can modify it:**
 
-**count_down(initial,final=0,delay=1, decrement=-1)**.This is the default structure.
+**count_down(initial,final=0,delay=1, decrement=-1,flicker=0.005)**.This is the default structure.
 
 ##### Default usage:
 ```python
