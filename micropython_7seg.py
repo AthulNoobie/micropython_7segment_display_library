@@ -6,9 +6,9 @@ class Sevseg:
         self.com=com
         self.pin_map={"anode":None,"cathode":None}
     def anode(self,*pins):
-        self.pin_map["cathode"]=[i for i in pins]
+        self.pin_map["cathode"]={i for i in pins}
     def cathode(self,*pins):
-        self.pin_map["anode"]=[i for i in pins]
+        self.pin_map["anode"]={i for i in pins}
     def reset(self):
       if self.com=="anode":
          for pin in self.pin_map["anode"]:
