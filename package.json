@@ -1,7 +1,7 @@
 {
   "urls": [
     ["__init__.py", "github:AthulNoobie/micropython_7segment_display_library/__init__.py"],
-    ["micropython_7seg.mpy", "github:AthulNoobie/micropython_7segment_display_library/micropython_7seg.mpy"]
+    ["micropython_7seg.py", "github:AthulNoobie/micropython_7segment_display_library/micropython_7seg.py"]
   ],
   "deps": [],
   "version": "1.0.0"
